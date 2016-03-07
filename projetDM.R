@@ -1,3 +1,9 @@
+# sudo apt-get install r-cran-RGtk2 # for force the instalation of a packge on ubuntu
+## installation of the different packages
+install.packages("FactoMineR")
+install.packages("missMDA")
+install.packages("rattle")
+
 setwd(dir = "C:/Users/Goddi/Desktop/Euria et actuariat/2nd semestre/Data mining/Projet")
 
 #### importaion des differentes tables par lot
