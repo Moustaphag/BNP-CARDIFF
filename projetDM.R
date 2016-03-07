@@ -14,7 +14,7 @@ memory.limit(size=8000)
 reg=lm(target~.,data=base)
 
 type=c()
-for (i in 3:133) type[i]=is.double(base[,i])
+for (i in 3:133) type[i]=is.double(base[,i])  ## pour quoi tu verifie le type des double
 qua=which(type==0)
 
 PCA(base, scale.unit = TRUE, ncp = 5, ind.sup = NULL, 
